@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Index</title>
+  </head>
+  <body>
+    <header>
+      <nav class="text-center">
+        <a
+          class="text-3xl font-bold underline text-clifford hover:text-green-500 m-5"
+          href="/"
+          >Home</a
+        >
+        <a
+          class="text-3xl font-bold underline text-clifford hover:text-green-500 m-5"
+          href="/about.html"
+          >About</a
+        >
+      </nav>
+    </header>
+
+    <main class="my-10">
+      <h1 class="text-2xl font-bold text-clifford text-center">
+        Students in Group ABC
+      </h1>
+
+      <div class="space-y-4">
+        <div>
+          <h2 class="font-bold text-xl">Part 1</h2>
+          <p>Testing</p>
+        </div>
+
+        <div>
+          <h2 class="font-bold text-xl">Part 2</h2>
+          <p>Testing</p>
+        </div>
+
+        <table
+          class="table-auto border-collapseborder border-gray-500 [&_td]:border [&_th]:border"
+        >
+          <thead>
+            <tr>
+              <th colspan="3" class="px-4 py-2 bg-gray-200">Student Data</th>
+            </tr>
+            <tr>
+              <th class="px-4 py-2">Name</th>
+              <th class="px-4 py-2">Age</th>
+              <th th class="px-4 py-2">Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-2">John</td>
+              <td class="px-4 py-2">18</td>
+              <td class="px-4 py-2">Year 12</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2">Jane</td>
+              <td class="px-4 py-2">17</td>
+              <td class="px-4 py-2">Year 12</td>
+            </tr>
+          </tbody>
+        </table>
+        <form>
+          <label>Name</label>
+          <input />
+          <label>Age</label>
+          <input />
+          <textarea>Year Level </textarea>
+          <button></button>
+        </form>
+      </div>
+    </main>
+    <footer
+      class="bg-gray-500 p-4 text-center p-10 fixed -left-0 -bottom-0 w-full"
+    >
+      All your information will be strictly kept confidential!
+    </footer>
+  </body>
+</html>
